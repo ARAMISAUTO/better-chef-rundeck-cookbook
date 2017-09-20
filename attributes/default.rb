@@ -1,0 +1,5 @@
+default['better-chef-rundeck']['user'] = 'better-chef-rundeck'
+default['better-chef-rundeck']['group'] = 'better-chef-rundeck'
+default['better-chef-rundeck']['install_directory'] = '/srv/better-chef-rundeck'
+default['better-chef-rundeck']['git']['repository'] = 'https://github.com/atheiman/better-chef-rundeck.git'
+default['better-chef-rundeck']['git']['revision'] = '83f7d9bfbaaaff9e310e21788b846c6c294f0e07'
