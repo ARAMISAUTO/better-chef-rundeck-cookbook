@@ -12,7 +12,7 @@ recipe 'better-chef-rundeck::passenger_standalone', 'Installs Passenger standalo
 
 # Supported platforms
 supports 'ubuntu', '>= 16.04'
-supports 'debian', '>= 8'
+supports 'debian', '>= 8.0'
 
 # Dependencies
 depends 'apt', '~> 6.1.4'
