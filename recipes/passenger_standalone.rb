@@ -27,7 +27,7 @@ end
 # Create service
 poise_service_user cookbook_name()
 poise_service 'better-chef-rundeck' do
-  command '/usr/local/bin/bundle exec passenger start --environment production'
+  command "/usr/local/bin/bundle exec passenger start --environment #{node['better-chef-rundeck']['application']['environment']} --port #{node['better-chef-rundeck']['passenger_standalone']['port']}"
   directory "/srv/#{cookbook_name()}"
   action [:enable, :start]
   # Daemon must be able to read the /etc/chef/client.pem file
