@@ -11,7 +11,7 @@ recipe 'better-chef-rundeck', 'Installs and configures the better-chef-client ap
 recipe 'better-chef-rundeck::passenger_standalone', 'Installs Passenger standalone and uses it to run the better-chef-client-application'
 
 # Supported platforms
-supports 'ubuntu', '>= 14.04'
+supports 'ubuntu', '>= 16.04'
 supports 'debian', '>= 8'
 
 # Dependencies
