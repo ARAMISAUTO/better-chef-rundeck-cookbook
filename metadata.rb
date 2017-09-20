@@ -20,6 +20,6 @@ depends 'git', '~> 8.0.0'
 depends 'poise-ruby', '~> 2.3.0'
 depends 'poise-service', '~> 1.5.2'
 
-issues_url 'https://github.com/ARAMISAUTO/better-chef-rundeck/issues'
-source_url 'https://github.com/ARAMISAUTO/better-chef-rundeck'
+issues_url 'https://github.com/ARAMISAUTO/better-chef-rundeck-cookbook/issues'
+source_url 'https://github.com/ARAMISAUTO/better-chef-rundeck-cookbook'
 chef_version '>= 12.1' if respond_to?(:chef_version)
